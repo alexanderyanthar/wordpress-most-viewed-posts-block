@@ -1,0 +1,25 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "create-block/most-viewed-posts",
+	"version": "0.1.0",
+	"title": "Most Viewed Posts",
+	"category": "widgets",
+	"icon": "smiley",
+	"description": "Example block scaffolded with Create Block tool.",
+	"example": {},
+	"supports": {
+		"html": false
+	},
+	"attributes": {
+		"displayFeaturedImage": {
+			"type": "boolean",
+			"default": true
+		}
+	},
+	"textdomain": "most-viewed-posts",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"viewScript": "file:./view.js"
+}
